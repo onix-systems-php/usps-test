@@ -7,9 +7,9 @@ if (!isset($_ENV['APP_SLUG'])) {
 
 //test db connection
 $pdo = new PDO(
-    "{$_ENV['DATABASE_DRIVER']}:host={$_ENV['DATABASE_HOST']};dbname={$_ENV['DATABASE_NAME']}",
-    $_ENV['DATABASE_USER'],
-    $_ENV['DATABASE_PASSWORD']
+    "pgsql:host={$_ENV['POSTGRES_HOSTNAME']};dbname={$_ENV['POSTGRES_DB_NAME']}",
+    $_ENV['POSTGRES_USER'],
+    $_ENV['POSTGRES_PASSWORD']
 );
 if ($pdo->query('SELECT 1')->fetchColumn()) {
     echo 'PG Connected';
