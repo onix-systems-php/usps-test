@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View;
+namespace Core\View;
 
 class Json implements ViewInterface
 {

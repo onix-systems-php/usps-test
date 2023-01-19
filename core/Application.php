@@ -1,11 +1,11 @@
 <?php
 
-namespace App;
+namespace Core;
 
-use App\Routing\Router;
-use App\View\ViewInterface;
-use App\View\Template;
-use App\View\Json;
+use Core\Routing\Router;
+use Core\View\ViewInterface;
+use Core\View\Template;
+use Core\View\Json;
 
 class Application
 {

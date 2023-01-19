@@ -2,8 +2,8 @@
 
 namespace App\Controllers;
 
-use App\DB;
-use App\View\Template;
+use Core\DB;
+use Core\View\Template;
 
 class HomeController
 {
