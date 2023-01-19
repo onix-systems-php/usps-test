@@ -1,0 +1,4 @@
+.idea/
+.env
+vendor
+/.docker-local/conf/postgres/db-data/*

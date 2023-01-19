@@ -1,0 +1,17 @@
+{
+    "name": "onix-systems-php/usps-test",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OnixSystemsPhp\\UspsTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "МщдщVolodymyr Hordiienko",
+            "email": "vladimir.gordienko@onix-systems.com"
+        }
+    ],
+    "require": {}
+}

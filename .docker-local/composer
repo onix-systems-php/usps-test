@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+composer=$(make get-composer-command)
+command="${composer} $@"
+
+eval $command
