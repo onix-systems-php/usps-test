@@ -1,0 +1,7 @@
+services:
+  db:
+    platform: linux/amd64
+  php:
+    platform: linux/amd64
+  adminer:
+    platform: linux/amd64
