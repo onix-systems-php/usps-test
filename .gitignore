@@ -1,4 +1,4 @@
 .idea/
 .env
 vendor
-/.docker-local/conf/postgres/db-data/*
+/.docker-local/conf/mysql/db-data/*
