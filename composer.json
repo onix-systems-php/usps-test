@@ -13,5 +13,8 @@
             "email": "vladimir.gordienko@onix-systems.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "vinceg/usps-php-api": "^1.1"
+    }
 }

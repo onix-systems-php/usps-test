@@ -13,3 +13,4 @@ at `http://localhost`
 
 Later you can use commands ```make down``` and ```make up``` to stop and run application.
 
+Use `http://localhost:8080` to access adminer. Enter credentials you set in .env file.
