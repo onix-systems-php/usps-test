@@ -4,12 +4,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "OnixSystemsPhp\\UspsTest\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "МщдщVolodymyr Hordiienko",
+            "name": "Volodymyr Hordiienko",
             "email": "vladimir.gordienko@onix-systems.com"
         }
     ],
